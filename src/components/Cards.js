@@ -1,5 +1,4 @@
-import react, { useState } from "react";
-import Card from "./Card";
+import  { useState } from "react";
 import Modal from "react-modal";
 
 const customStyles = {
@@ -63,7 +62,7 @@ const Cards = ({ recipes }) => {
             <img
               src={recipe.image}
               className="card-img-top mt-2"
-              alt="No Image"
+              alt="Not found"
               width={50}
             />
             <div className="card-body">

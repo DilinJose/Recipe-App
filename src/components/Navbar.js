@@ -13,7 +13,7 @@ const Navbar = ({ setSearch }) => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <h3 className="navbar-brand" >
             <img
               src={logo}
               alt=""
@@ -22,7 +22,7 @@ const Navbar = ({ setSearch }) => {
               className="d-inline-block me-2 align-text-top logo"
             />
             Pantry Expert
-          </a>
+          </h3>
           <button
             className="navbar-toggler"
             type="button"
